@@ -9,14 +9,6 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
-  "dependencies": {
-    "axios": "^0.19.0",
-    "core-js": "^3.3.2",
-    "vue": "^2.6.10",
-    "vue-class-component": "^7.0.2",
-    "vue-property-decorator": "^8.3.0",
-    "vuex": "^3.0.1"
-  },
   "devDependencies": {
     "@babel/core": "^7.7.2",
     "@storybook/addon-actions": "^5.2.6",
@@ -29,8 +21,10 @@
     "@vue/cli-service": "^4.0.0",
     "@vue/eslint-config-prettier": "^5.0.0",
     "@vue/eslint-config-typescript": "^4.0.0",
+    "axios": "^0.19.0",
     "babel-loader": "^8.0.6",
     "babel-preset-vue": "^2.0.2",
+    "core-js": "^3.3.2",
     "eslint": "^5.16.0",
     "eslint-plugin-prettier": "^3.1.1",
     "eslint-plugin-vue": "^5.0.0",
@@ -39,6 +33,10 @@
     "prettier": "^1.18.2",
     "sass-loader": "^8.0.0",
     "typescript": "~3.5.3",
-    "vue-template-compiler": "^2.6.10"
+    "vue": "^2.6.10",
+    "vue-class-component": "^7.0.2",
+    "vue-property-decorator": "^8.3.0",
+    "vue-template-compiler": "^2.6.10",
+    "vuex": "^3.0.1"
   }
 }
