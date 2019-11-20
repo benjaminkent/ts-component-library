@@ -21,13 +21,13 @@ button {
   padding: 20px 30px;
   border-radius: 30px;
   border: none;
-  background-color: #4abf50;
+  background-color: #0072ff;
   color: #fff;
   cursor: pointer;
   transition: 0.3s all ease-in-out;
 }
 button:hover {
-  background-color: #98e09c;
+  background-color: #004caa;
   transition: 0.3s all ease-in-out;
 }
 </style>
