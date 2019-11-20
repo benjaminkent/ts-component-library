@@ -15,8 +15,10 @@
           <span v-if="error" class="error">Please enter a number</span>
         </transition>
         <div class="button-container">
-          <button type="submit" v-if="factType === 'math'">Get Fact!</button>
-          <button type="submit" v-else>Get Trivia!</button>
+          <ts-button type="submit" v-if="factType === 'math'"
+            >Get Fact!</ts-button
+          >
+          <ts-button type="submit" v-else>Get Trivia!</ts-button>
         </div>
       </form>
     </div>
@@ -29,8 +31,13 @@
 <script lang="ts">
 import { Component, Vue, Prop } from 'vue-property-decorator'
 import { fetchNumberFact } from './ajax'
+import TsButton from '@benjaminkent/ts-button/src/TsButton.vue'
 
-@Component({})
+@Component({
+  components: {
+    TsButton,
+  },
+})
 export default class TsNumberFact extends Vue {
   @Prop(String) readonly factType!: string
   number: number | null = null
