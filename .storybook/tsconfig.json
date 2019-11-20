@@ -1,0 +1,8 @@
+// This file really only exists for ts-loader in storybook's webpack config
+{
+  "extends": "../packages/config/tsconfig.json",
+  "compilerOptions": {
+    "declaration": false
+  },
+  "include": ["../packages/**/*.stories.ts"]
+}
